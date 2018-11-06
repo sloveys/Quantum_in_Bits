@@ -2,7 +2,7 @@ from qiskit import QuantumCircuit, ClassicalRegister, QuantumRegister
 from qiskit import Aer, execute
 from cmath import pi
 
-# init computer
+# Init computer
 qr = QuantumRegister(2) # create a 2 qubit register
 cr = ClassicalRegister(2) # create a 2 bit register
 qc = QuantumCircuit(qr, cr)
